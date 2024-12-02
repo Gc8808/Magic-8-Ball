@@ -2,7 +2,7 @@
 
 let userName = prompt('Hello what is your name');
 
-let responceImg = document.getElementById('responce-img')
+let responceImg = document.getElementById('response-img')
 let responceText= document.getElementById('responce-Text')
 let greeting = document.getElementById ('greeting') 
 
@@ -25,28 +25,28 @@ function shakeMagic8Ball(){
     let imageChoice = '';
     if (randomNumber === 0) {
       eightBall = 'It is certain';
-      imageChoice = '';
+      imageChoice = 'img1.jpg'
     } else if (randomNumber === 1) {
       eightBall = 'It is decidedly so';
-      imageChoice = '';
+      imageChoice = 'img7.png'
     } else if (randomNumber === 2) {
       eightBall = 'Reply hazy, try again';
-      imageChoice = '';
+      imageChoice = 'istockphoto-1162198273-612x612.jpg'
     } else if (randomNumber === 3) {
       eightBall = 'Cannot predict now';
-      imageChoice = '';
+      imageChoice = 'img4.png';
     } else if (randomNumber === 4) {
       eightBall = 'Do not count on it';
-      imageChoice = '';
+      imageChoice = 'img6.jpg';
     } else if (randomNumber === 5) {
       eightBall = 'My sources say no';
-      imageChoice = '';
+      imageChoice = 'img5.jpg';
     } else if (randomNumber === 6) {
       eightBall = 'Outlook not so good';
-      imageChoice = '';
+      imageChoice = 'img2.png';
     } else if (randomNumber === 7) {
       eightBall = 'Signs point to yes';
-      imageChoice = '';
+      imageChoice = 'img1.jpg';
     }
     
     
